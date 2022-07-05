@@ -1,7 +1,7 @@
 mlops-basic
 ==============================
 
-Projeto básico de MLOPS para fins didáticos
+Projeto básico de MLOPS para fins didáticos (fonte: [Medium MLOPS End-to-End](https://medium.com/@shanakachathuranga/end-to-end-machine-learning-pipeline-with-mlops-tools-mlflow-dvc-flask-heroku-evidentlyai-github-c38b5233778c))
 
 Project Organization
 ------------
