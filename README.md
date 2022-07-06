@@ -10,7 +10,7 @@ Dependências Externas
 
 Principais Comandos
 -----------
-- Criação e ativação de VIRTUAL ENV: `python3 -m venv venv | source /venv/bin/activate`
+- Criação e ativação de VIRTUAL ENV: `python3 -m venv env | source /venv/bin/activate`
 - Instalação das dependências: `pip install -r requirements.txt`
 - Disponibilização do servidor do MLFLOW: `servidor mlflow --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifacts --host 0.0.0.0 -p 1234`
 - Geração de nova versionamento com o DVC: `dvc repro`
