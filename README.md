@@ -15,6 +15,7 @@ Principais Comandos
 - Disponibilização do servidor do MLFLOW: `mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifacts --host 0.0.0.0 -p 1234`
 - Geração de nova versionamento com o DVC: `dvc repro`
 - Execução dos testes unitário com PYTEST: `pytest -v`
+- Criação de report de monitoração de Concept Drift com EvidentlyAI: `python3 src/models/model_monitor.py`
 
 Organização do projeto
 ------------
