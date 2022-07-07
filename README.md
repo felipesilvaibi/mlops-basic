@@ -1,24 +1,42 @@
-mlops-basic
-==============================
+# mlops-basic
 
 Projeto básico de MLOPS para fins didáticos (fonte: [Medium MLOPS End-to-End](https://medium.com/@shanakachathuranga/end-to-end-machine-learning-pipeline-with-mlops-tools-mlflow-dvc-flask-heroku-evidentlyai-github-c38b5233778c))
 
-Dependências Externas
-----------
-- python3 package
-- pip package
+## Ferramentas utilizadas
 
-Principais Comandos
------------
-- Criação e ativação de VIRTUAL ENV: `python3 -m venv env`, `source ./env/bin/activate`
-- Instalação das dependências: `pip install -r requirements.txt`
-- Disponibilização do servidor do MLFLOW: `mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifacts --host 0.0.0.0 -p 1234`
-- Geração de nova versionamento com o DVC: `dvc repro`
-- Execução dos testes unitário com PYTEST: `pytest -v`
-- Criação de report de monitoração de Concept Drift com EvidentlyAI: `python3 src/models/model_monitor.py`
+*   **Cookiecutter:** Estrutura do projeto de ciência de dados
 
-Organização do projeto
-------------
+*   **Controle de versão de dados (DVC):** Controle de versão dos ativos de dados e pipeline de dados
+
+*   **Github:** Controle de versão de código
+
+*   **Github Actions:** Pipeline CI-CD
+
+*   **MLFlow:** Registro de modelo de Machine Learning
+
+*   **Heroku:** Aplicativo (interface)
+
+*   **Flask:** API (web service)
+
+*   **EvidentlyAI:** Avaliação e monitoramento de modelos de ML em produção
+
+*   **Pytest:** Testes unitários
+
+## Principais Comandos
+
+*   Criação e ativação de VIRTUAL ENV: `python3 -m venv env`, `source ./env/bin/activate`
+
+*   Instalação das dependências: `pip install -r requirements.txt`
+
+*   Disponibilização do servidor do MLFLOW: `mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifacts --host 0.0.0.0 -p 1234`
+
+*   Geração de nova versionamento com o DVC: `dvc repro`
+
+*   Execução dos testes unitário com PYTEST: `pytest -v`
+
+*   Criação de report de monitoração de Concept Drift com EvidentlyAI: `python3 src/models/model_monitor.py`
+
+## Organização do projeto
 
     ├── LICENSE
     ├── Makefile           <- Makefile com comandos como `make data` ou `make train`
@@ -63,7 +81,6 @@ Organização do projeto
     │
     └── tox.ini            <- Arquivo tox com configurações para execução de tox; veja tox.readthedocs.io
 
+***
 
---------
-
-<p><small>Projeto baseado no modelo de projeto de ciência de dados <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter </a>. #cookiecutterdatascience</small></p>
+Projeto baseado no template de data science [cookiecutter](https://drivendata.github.io/cookiecutter-data-science/). #cookiecutterdatascience
