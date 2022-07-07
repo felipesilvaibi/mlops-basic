@@ -30,7 +30,7 @@ Projeto básico de MLOPS para fins didáticos (fonte: [Medium MLOPS End-to-End](
 
 *   Disponibilização do servidor do MLFLOW: `mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifacts --host 0.0.0.0 -p 1234`
 
-*   Geração de nova versionamento com o DVC: `dvc repro`
+*   Geração de nova versão com o DVC: `dvc repro`
 
 *   Execução dos testes unitário com PYTEST: `pytest -v`
 
